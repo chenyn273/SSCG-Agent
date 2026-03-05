@@ -15,11 +15,8 @@ This repository accompanies the paper:
 ```python
 S2CG-Agent-main/
 ├── Major/ # Additional data for Major Revision
-├── AutoSafeCoder/ # baseline: AutoSafeCoder
-├── LLM-Agent/ # baseline: LLM-Agent
-├── OriginalLLM/ # baseline: Original LLM
-├── SCG-Agent/ # ablation baseline: SCG-Agent
-├── S²CG-Agent/ # S²CG-Agent
+├── Baselines/ # baselines
+├── S²CG-Agent/ # SCG-Agent
 ├── trained_decision_model/ # trained scheduling model, need to download from Releases or Google Cloud
 ├── results/ # outputs of S²CG-Agent and baselines
 ├── evaluation/ # Scripts and configs for evaluating performance
