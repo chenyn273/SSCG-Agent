@@ -1,19 +1,20 @@
-# S²CG-Agent: A Schedulable Multi-Agent Secure Code Generation Framework
+# SCG-Agent: A Scheduler-Driven Code Generation Framework with Multi-Checker
 
-This repository provides the official implementation of the **S²CG-Agent**, a schedulable and safe code generation agent designed to generate secure code with the help of LLMs. It is developed to support research in safe AI-assisted software engineering.
+This repository provides the official implementation of the **SCG-Agent**, a schedulable code generation agent designed to generate secure code with the help of LLMs. It is developed to support research in safe AI-assisted software engineering.
 
 ## 🔍 Project Overview
 
-**S²CG-Agent** introduces a multi-agent architecture where code generation tasks are scheduled and coordinated to ensure safety and correctness. 
+**SCG-Agent** introduces a multi-agent architecture where code generation tasks are scheduled and coordinated to ensure safety and correctness. 
 
 This repository accompanies the paper:  
-**"S²CG-Agent: A Schedulable Multi-Agent Secure Code Generation Framework"**  
-![framework](https://github.com/user-attachments/assets/716f811e-8bb5-4416-b67b-e2197d527566)
+**"SCG-Agent: A Scheduler-Driven Code Generation Framework with Multi-Checker"**  
+<img width="3484" height="1010" alt="framework" src="https://github.com/user-attachments/assets/5b37d7a6-f901-4117-960d-7f2f44267921" />
 
 ## 📁 Directory Structure
 
 ```python
 S2CG-Agent-main/
+├── Major/ # Additional data for Major Revision
 ├── AutoSafeCoder/ # baseline: AutoSafeCoder
 ├── LLM-Agent/ # baseline: LLM-Agent
 ├── OriginalLLM/ # baseline: Original LLM
