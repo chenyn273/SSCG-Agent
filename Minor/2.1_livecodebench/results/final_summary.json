@@ -1,0 +1,53 @@
+{
+  "Self-Collaboration": {
+    "ut": {
+      "pass": 96,
+      "total": 167,
+      "rate": 57.49
+    },
+    "sa": {
+      "pass": 157,
+      "total": 167,
+      "rate": 94.01
+    },
+    "ft": {
+      "pass": 119,
+      "total": 167,
+      "rate": 71.26
+    }
+  },
+  "Reflexion": {
+    "ut": {
+      "pass": 106,
+      "total": 167,
+      "rate": 63.47
+    },
+    "sa": {
+      "pass": 159,
+      "total": 167,
+      "rate": 95.21
+    },
+    "ft": {
+      "pass": 84,
+      "total": 167,
+      "rate": 50.3
+    }
+  },
+  "SCG-Agent": {
+    "ut": {
+      "pass": 110,
+      "total": 167,
+      "rate": 65.87
+    },
+    "sa": {
+      "pass": 163,
+      "total": 167,
+      "rate": 97.6
+    },
+    "ft": {
+      "pass": 147,
+      "total": 167,
+      "rate": 88.02
+    }
+  }
+}

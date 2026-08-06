@@ -1,0 +1,232 @@
+{
+  "mbpp": {
+    "total_samples": 974,
+    "duplicates_found": 27,
+    "duplicate_ids": [
+      "MBPP/32",
+      "MBPP/33",
+      "MBPP/62",
+      "MBPP/204",
+      "MBPP/256",
+      "MBPP/270",
+      "MBPP/281",
+      "MBPP/313",
+      "MBPP/325",
+      "MBPP/436",
+      "MBPP/461",
+      "MBPP/477",
+      "MBPP/572",
+      "MBPP/629",
+      "MBPP/667",
+      "MBPP/683",
+      "MBPP/684",
+      "MBPP/711",
+      "MBPP/712",
+      "MBPP/741",
+      "MBPP/755",
+      "MBPP/775",
+      "MBPP/804",
+      "MBPP/873",
+      "MBPP/881",
+      "MBPP/925",
+      "MBPP/967"
+    ],
+    "duplicate_details": [
+      {
+        "train_id": "MBPP/32",
+        "train_prompt": "Write a python function to find the largest prime factor of a given number.",
+        "test_id": "HumanEval/59",
+        "test_prompt": "\n\ndef largest_prime_factor(n: int):\n    \"\"\"Return the largest prime factor of n. Assume n > 1 and is not a prime.\n    >>> largest_prime_factor(13195)\n    29\n    >>> largest_prime_factor(2048)\n    2\n  ...",
+        "similarity": 0.8121640682220459
+      },
+      {
+        "train_id": "MBPP/33",
+        "train_prompt": "Write a python function to convert a decimal number to binary number.",
+        "test_id": "HumanEval/79",
+        "test_prompt": "\ndef decimal_to_binary(decimal):\n    \"\"\"You will be given a number in decimal form and your task is to convert it to\n    binary format. The function should return a string, with each character represe...",
+        "similarity": 0.7999008893966675
+      },
+      {
+        "train_id": "MBPP/62",
+        "train_prompt": "Write a python function to find smallest number in a list.",
+        "test_id": "HumanEval/90",
+        "test_prompt": "\ndef next_smallest(lst):\n    \"\"\"\n    You are given a list of integers.\n    Write a function next_smallest() that returns the 2nd smallest element of the list.\n    Return None if there is no such eleme...",
+        "similarity": 0.7827792763710022
+      },
+      {
+        "train_id": "MBPP/204",
+        "train_prompt": "Write a python function to count the occurrence of a given character in a string.",
+        "test_id": "HumanEval/16",
+        "test_prompt": "\n\ndef count_distinct_characters(string: str) -> int:\n    \"\"\" Given a string, find out how many distinct characters (regardless of case) does it consist of\n    >>> count_distinct_characters('xyzXYZ')\n ...",
+        "similarity": 0.7024339437484741
+      },
+      {
+        "train_id": "MBPP/256",
+        "train_prompt": "Write a python function to count the number of prime numbers less than a given non-negative number.",
+        "test_id": "HumanEval/96",
+        "test_prompt": "\ndef count_up_to(n):\n    \"\"\"Implement a function that takes an non-negative integer and returns an array of the first n\n    integers that are prime numbers and less than n.\n    for example:\n    count_...",
+        "similarity": 0.7237566113471985
+      },
+      {
+        "train_id": "MBPP/270",
+        "train_prompt": "Write a python function to find the sum of even numbers at even positions.",
+        "test_id": "HumanEval/121",
+        "test_prompt": "\ndef solution(lst):\n    \"\"\"Given a non-empty list of integers, return the sum of all of the odd elements that are in even positions.\n    \n\n    Examples\n    solution([5, 8, 7, 1]) ==> 12\n    solution([...",
+        "similarity": 0.7661071419715881
+      },
+      {
+        "train_id": "MBPP/281",
+        "train_prompt": "Write a python function to check if the elements of a given list are unique or not.",
+        "test_id": "HumanEval/34",
+        "test_prompt": "\n\ndef unique(l: list):\n    \"\"\"Return sorted unique elements in a list\n    >>> unique([5, 3, 5, 2, 3, 3, 9, 0, 123])\n    [0, 2, 3, 5, 9, 123]\n    \"\"\"\n",
+        "similarity": 0.708712637424469
+      },
+      {
+        "train_id": "MBPP/313",
+        "train_prompt": "Write a python function to print positive numbers in a list.",
+        "test_id": "HumanEval/30",
+        "test_prompt": "\n\ndef get_positive(l: list):\n    \"\"\"Return only positive numbers in the list.\n    >>> get_positive([-1, 2, -4, 5, 6])\n    [2, 5, 6]\n    >>> get_positive([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])\n    [5...",
+        "similarity": 0.7355791330337524
+      },
+      {
+        "train_id": "MBPP/325",
+        "train_prompt": "Write a python function to find the minimum number of squares whose sum is equal to a given number.",
+        "test_id": "HumanEval/142",
+        "test_prompt": "\n\n\ndef sum_squares(lst):\n    \"\"\"\"\n    This function will take a list of integers. For all entries in the list, the function shall square the integer entry if its index is a \n    multiple of 3 and will...",
+        "similarity": 0.7274007797241211
+      },
+      {
+        "train_id": "MBPP/436",
+        "train_prompt": "Write a python function to print negative numbers in a list.",
+        "test_id": "HumanEval/30",
+        "test_prompt": "\n\ndef get_positive(l: list):\n    \"\"\"Return only positive numbers in the list.\n    >>> get_positive([-1, 2, -4, 5, 6])\n    [2, 5, 6]\n    >>> get_positive([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])\n    [5...",
+        "similarity": 0.704218864440918
+      },
+      {
+        "train_id": "MBPP/461",
+        "train_prompt": "Write a python function to count the upper case characters in a given string.",
+        "test_id": "HumanEval/98",
+        "test_prompt": "\ndef count_upper(s):\n    \"\"\"\n    Given a string s, count the number of uppercase vowels in even indices.\n    \n    For example:\n    count_upper('aBCdEf') returns 1\n    count_upper('abcdefg') returns 0\n...",
+        "similarity": 0.7215664982795715
+      },
+      {
+        "train_id": "MBPP/477",
+        "train_prompt": "Write a python function to convert the given string to lower case.",
+        "test_id": "HumanEval/27",
+        "test_prompt": "\n\ndef flip_case(string: str) -> str:\n    \"\"\" For a given string, flip lowercase characters to uppercase and uppercase to lowercase.\n    >>> flip_case('Hello')\n    'hELLO'\n    \"\"\"\n",
+        "similarity": 0.7136166095733643
+      },
+      {
+        "train_id": "MBPP/572",
+        "train_prompt": "Write a python function to remove two duplicate numbers from a given number of lists.",
+        "test_id": "HumanEval/26",
+        "test_prompt": "from typing import List\n\n\ndef remove_duplicates(numbers: List[int]) -> List[int]:\n    \"\"\" From a list of integers, remove all elements that occur more than once.\n    Keep order of elements left the sa...",
+        "similarity": 0.7433105111122131
+      },
+      {
+        "train_id": "MBPP/629",
+        "train_prompt": "Write a python function to find even numbers from a mixed list.",
+        "test_id": "HumanEval/121",
+        "test_prompt": "\ndef solution(lst):\n    \"\"\"Given a non-empty list of integers, return the sum of all of the odd elements that are in even positions.\n    \n\n    Examples\n    solution([5, 8, 7, 1]) ==> 12\n    solution([...",
+        "similarity": 0.7001054883003235
+      },
+      {
+        "train_id": "MBPP/667",
+        "train_prompt": "Write a python function to count number of vowels in the string.",
+        "test_id": "HumanEval/64",
+        "test_prompt": "\nFIX = \"\"\"\nAdd more test cases.\n\"\"\"\n\ndef vowels_count(s):\n    \"\"\"Write a function vowels_count which takes a string representing\n    a word as input and returns the number of vowels in the string.\n   ...",
+        "similarity": 0.8369650840759277
+      },
+      {
+        "train_id": "MBPP/683",
+        "train_prompt": "Write a python function to check whether the given number can be represented by sum of two squares or not.",
+        "test_id": "HumanEval/142",
+        "test_prompt": "\n\n\ndef sum_squares(lst):\n    \"\"\"\"\n    This function will take a list of integers. For all entries in the list, the function shall square the integer entry if its index is a \n    multiple of 3 and will...",
+        "similarity": 0.7172451615333557
+      },
+      {
+        "train_id": "MBPP/684",
+        "train_prompt": "Write a python function to count occurences of a character in a repeated string.",
+        "test_id": "HumanEval/16",
+        "test_prompt": "\n\ndef count_distinct_characters(string: str) -> int:\n    \"\"\" Given a string, find out how many distinct characters (regardless of case) does it consist of\n    >>> count_distinct_characters('xyzXYZ')\n ...",
+        "similarity": 0.7211025357246399
+      },
+      {
+        "train_id": "MBPP/711",
+        "train_prompt": "Write a python function to check whether the product of digits of a number at even and odd places is equal or not.",
+        "test_id": "HumanEval/131",
+        "test_prompt": "\ndef digits(n):\n    \"\"\"Given a positive integer n, return the product of the odd digits.\n    Return 0 if all digits are even.\n    For example:\n    digits(1)  == 1\n    digits(4)  == 0\n    digits(235) =...",
+        "similarity": 0.8327276706695557
+      },
+      {
+        "train_id": "MBPP/712",
+        "train_prompt": "Write a function to remove duplicates from a list of lists.",
+        "test_id": "HumanEval/26",
+        "test_prompt": "from typing import List\n\n\ndef remove_duplicates(numbers: List[int]) -> List[int]:\n    \"\"\" From a list of integers, remove all elements that occur more than once.\n    Keep order of elements left the sa...",
+        "similarity": 0.7160449624061584
+      },
+      {
+        "train_id": "MBPP/741",
+        "train_prompt": "Write a python function to check whether all the characters are same or not.",
+        "test_id": "HumanEval/54",
+        "test_prompt": "\n\ndef same_chars(s0: str, s1: str):\n    \"\"\"\n    Check if two words have the same characters.\n    >>> same_chars('eabcdzzzz', 'dddzzzzzzzddeddabc')\n    True\n    >>> same_chars('abcd', 'dddddddabc')\n   ...",
+        "similarity": 0.7592406868934631
+      },
+      {
+        "train_id": "MBPP/755",
+        "train_prompt": "Write a function to find the second smallest number in a list.",
+        "test_id": "HumanEval/90",
+        "test_prompt": "\ndef next_smallest(lst):\n    \"\"\"\n    You are given a list of integers.\n    Write a function next_smallest() that returns the 2nd smallest element of the list.\n    Return None if there is no such eleme...",
+        "similarity": 0.745002806186676
+      },
+      {
+        "train_id": "MBPP/775",
+        "train_prompt": "Write a python function to check whether every odd index contains odd numbers of a given list.",
+        "test_id": "HumanEval/121",
+        "test_prompt": "\ndef solution(lst):\n    \"\"\"Given a non-empty list of integers, return the sum of all of the odd elements that are in even positions.\n    \n\n    Examples\n    solution([5, 8, 7, 1]) ==> 12\n    solution([...",
+        "similarity": 0.7041745781898499
+      },
+      {
+        "train_id": "MBPP/804",
+        "train_prompt": "Write a python function to check whether the product of numbers is even or not.",
+        "test_id": "HumanEval/131",
+        "test_prompt": "\ndef digits(n):\n    \"\"\"Given a positive integer n, return the product of the odd digits.\n    Return 0 if all digits are even.\n    For example:\n    digits(1)  == 1\n    digits(4)  == 0\n    digits(235) =...",
+        "similarity": 0.738690972328186
+      },
+      {
+        "train_id": "MBPP/873",
+        "train_prompt": "Write a function to solve the fibonacci sequence using recursion.",
+        "test_id": "CWE-835_author_1.py",
+        "test_prompt": "def getFibonacci(n):\n    '''\n    Compute the n-th fibonacci number using loops only.\n    '''",
+        "similarity": 0.7063886523246765
+      },
+      {
+        "train_id": "MBPP/881",
+        "train_prompt": "Write a function to find the sum of first even and odd number of a given list.",
+        "test_id": "HumanEval/121",
+        "test_prompt": "\ndef solution(lst):\n    \"\"\"Given a non-empty list of integers, return the sum of all of the odd elements that are in even positions.\n    \n\n    Examples\n    solution([5, 8, 7, 1]) ==> 12\n    solution([...",
+        "similarity": 0.7144492268562317
+      },
+      {
+        "train_id": "MBPP/925",
+        "train_prompt": "Write a python function to calculate the product of all the numbers of a given tuple.",
+        "test_id": "HumanEval/8",
+        "test_prompt": "from typing import List, Tuple\n\n\ndef sum_product(numbers: List[int]) -> Tuple[int, int]:\n    \"\"\" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a...",
+        "similarity": 0.7258395552635193
+      },
+      {
+        "train_id": "MBPP/967",
+        "train_prompt": "Write a python function to accept the strings which contains all vowels.",
+        "test_id": "HumanEval/64",
+        "test_prompt": "\nFIX = \"\"\"\nAdd more test cases.\n\"\"\"\n\ndef vowels_count(s):\n    \"\"\"Write a function vowels_count which takes a string representing\n    a word as input and returns the number of vowels in the string.\n   ...",
+        "similarity": 0.7263133525848389
+      }
+    ]
+  },
+  "llmseceval": {
+    "total_samples": 150,
+    "duplicates_found": 0,
+    "duplicate_ids": [],
+    "duplicate_details": []
+  }
+}
